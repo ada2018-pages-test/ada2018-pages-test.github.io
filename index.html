@@ -13,78 +13,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-    <style id="dark-reader-style" type="text/css">
-
-	    @media screen {
-
-			/* Leading rule */
-			html {
-			  -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(80%) grayscale(20%) sepia(10%) !important;
-			  filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(80%) grayscale(20%) sepia(10%) !important;
-			}
-
-			/* Reverse rule */
-			img,
-			video,
-			:not(object):not(body)>embed,
-			object,
-			svg image,
-			[style*="background:url"],
-			[style*="background-image:url"],
-			[style*="background: url"],
-			[style*="background-image: url"],
-			[background],
-			twitterwidget {
-			  -webkit-filter: invert(100%) hue-rotate(180deg) !important;
-			  filter: invert(100%) hue-rotate(180deg) !important;
-			}
-			[style*="background:url"] *,
-			[style*="background-image:url"] *,
-			[style*="background: url"] *,
-			[style*="background-image: url"] *,
-			input,
-			[background] *,
-			img[src^="https://s0.wp.com/latex.php"],
-			twitterwidget .NaturalImage-image {
-			  -webkit-filter: none !important;
-			  filter: none !important;
-			}
-			.compatibility-with-darkreader-below-4-3-3 {
-			  background: white !important;
-			}
-
-			/* Text contrast */
-			html {
-			  text-shadow: 0 0 0 !important;
-			}
-
-			/* Full screen */
-			:-webkit-full-screen, :-webkit-full-screen * {
-			  -webkit-filter: none !important;
-			  filter: none !important;
-			}
-			:-moz-full-screen, :-moz-full-screen * {
-			  -webkit-filter: none !important;
-			  filter: none !important;
-			}
-			:fullscreen, :fullscreen * {
-			  -webkit-filter: none !important;
-			  filter: none !important;
-			}
-
-			/* Page background */
-			html {
-			  background: rgb(26,26,25) !important;
-			}
-
-			/* Custom rules */
-			.compatibility-with-darkreader-below-4-3-3 {
-			    background: white !important;
-			}
-
-		}
-	</style>
   </head>
   <body>
     <div class="container">
@@ -96,7 +24,7 @@
             </div>
             <h1 align="center">GitHub Pages</h1> 
             <p align="center">Setting up your own GitHub page from scratch (or migrating from an existing website) is pretty easy!</p>
-            <p align="center">(One small request, don't use backends for your data stories. It makes it harder for us to replicate your work in the future - and it doesn't even benefit your grade.)</p>
+            <p align="center">And by the way, <strong>don't use backends for your data stories!</strong></p>
           </div>
         </div>
       </div>
